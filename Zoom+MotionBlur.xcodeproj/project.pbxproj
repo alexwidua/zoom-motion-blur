@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228B42152B260C2B00FDC2B7 /* MotionBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B42142B260C2B00FDC2B7 /* MotionBlurView.swift */; };
+		228F664D2B26491E001E29E2 /* ZoomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F664C2B26491E001E29E2 /* ZoomBlurView.swift */; };
+		228F664F2B270732001E29E2 /* ZoomBlur+Debug+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F664E2B270732001E29E2 /* ZoomBlur+Debug+View.swift */; };
+		228F66512B270A47001E29E2 /* HorizontalSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F66502B270A47001E29E2 /* HorizontalSlider.swift */; };
+		228F66532B2712CF001E29E2 /* MotionBlur+Debug+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F66522B2712CF001E29E2 /* MotionBlur+Debug+View.swift */; };
+		228F66552B271D84001E29E2 /* RadialSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F66542B271D84001E29E2 /* RadialSlider.swift */; };
+		228F66572B288DB1001E29E2 /* EffectToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228F66562B288DB1001E29E2 /* EffectToggle.swift */; };
+		F73E88162A3B8B0F00617F46 /* Zoom+MotionBlurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73E88152A3B8B0F00617F46 /* Zoom+MotionBlurApp.swift */; };
+		F73E881A2A3B8B0F00617F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73E88192A3B8B0F00617F46 /* Assets.xcassets */; };
+		F73E881D2A3B8B0F00617F46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73E881C2A3B8B0F00617F46 /* Preview Assets.xcassets */; };
+		F73E88252A3B8B2B00617F46 /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = F73E88242A3B8B2B00617F46 /* Wave */; };
+		F73E88272A3B8B4600617F46 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = F73E88262A3B8B4600617F46 /* Shader.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228B42142B260C2B00FDC2B7 /* MotionBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionBlurView.swift; sourceTree = "<group>"; };
+		228F664C2B26491E001E29E2 /* ZoomBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomBlurView.swift; sourceTree = "<group>"; };
+		228F664E2B270732001E29E2 /* ZoomBlur+Debug+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ZoomBlur+Debug+View.swift"; sourceTree = "<group>"; };
+		228F66502B270A47001E29E2 /* HorizontalSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalSlider.swift; sourceTree = "<group>"; };
+		228F66522B2712CF001E29E2 /* MotionBlur+Debug+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MotionBlur+Debug+View.swift"; sourceTree = "<group>"; };
+		228F66542B271D84001E29E2 /* RadialSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialSlider.swift; sourceTree = "<group>"; };
+		228F66562B288DB1001E29E2 /* EffectToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectToggle.swift; sourceTree = "<group>"; };
+		F73E88122A3B8B0F00617F46 /* Zoom+MotionBlur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zoom+MotionBlur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73E88152A3B8B0F00617F46 /* Zoom+MotionBlurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zoom+MotionBlurApp.swift"; sourceTree = "<group>"; };
+		F73E88192A3B8B0F00617F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F73E881C2A3B8B0F00617F46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F73E88262A3B8B4600617F46 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73E880F2A3B8B0F00617F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73E88252A3B8B2B00617F46 /* Wave in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F73E88092A3B8B0F00617F46 = {
+			isa = PBXGroup;
+			children = (
+				F73E88142A3B8B0F00617F46 /* Zoom+MotionBlur */,
+				F73E88132A3B8B0F00617F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F73E88132A3B8B0F00617F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73E88122A3B8B0F00617F46 /* Zoom+MotionBlur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73E88142A3B8B0F00617F46 /* Zoom+MotionBlur */ = {
+			isa = PBXGroup;
+			children = (
+				F73E88262A3B8B4600617F46 /* Shader.metal */,
+				F73E88192A3B8B0F00617F46 /* Assets.xcassets */,
+				F73E881B2A3B8B0F00617F46 /* Preview Content */,
+				F73E88152A3B8B0F00617F46 /* Zoom+MotionBlurApp.swift */,
+				228B42142B260C2B00FDC2B7 /* MotionBlurView.swift */,
+				228F66522B2712CF001E29E2 /* MotionBlur+Debug+View.swift */,
+				228F664C2B26491E001E29E2 /* ZoomBlurView.swift */,
+				228F664E2B270732001E29E2 /* ZoomBlur+Debug+View.swift */,
+				228F66502B270A47001E29E2 /* HorizontalSlider.swift */,
+				228F66542B271D84001E29E2 /* RadialSlider.swift */,
+				228F66562B288DB1001E29E2 /* EffectToggle.swift */,
+			);
+			path = "Zoom+MotionBlur";
+			sourceTree = "<group>";
+		};
+		F73E881B2A3B8B0F00617F46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F73E881C2A3B8B0F00617F46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73E88112A3B8B0F00617F46 /* Zoom+MotionBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73E88202A3B8B0F00617F46 /* Build configuration list for PBXNativeTarget "Zoom+MotionBlur" */;
+			buildPhases = (
+				F73E880E2A3B8B0F00617F46 /* Sources */,
+				F73E880F2A3B8B0F00617F46 /* Frameworks */,
+				F73E88102A3B8B0F00617F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zoom+MotionBlur";
+			packageProductDependencies = (
+				F73E88242A3B8B2B00617F46 /* Wave */,
+			);
+			productName = MagnificationLoupe;
+			productReference = F73E88122A3B8B0F00617F46 /* Zoom+MotionBlur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73E880A2A3B8B0F00617F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F73E88112A3B8B0F00617F46 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F73E880D2A3B8B0F00617F46 /* Build configuration list for PBXProject "Zoom+MotionBlur" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73E88092A3B8B0F00617F46;
+			packageReferences = (
+				F73E88232A3B8B2B00617F46 /* XCRemoteSwiftPackageReference "Wave" */,
+			);
+			productRefGroup = F73E88132A3B8B0F00617F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73E88112A3B8B0F00617F46 /* Zoom+MotionBlur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73E88102A3B8B0F00617F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73E881D2A3B8B0F00617F46 /* Preview Assets.xcassets in Resources */,
+				F73E881A2A3B8B0F00617F46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73E880E2A3B8B0F00617F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73E88272A3B8B4600617F46 /* Shader.metal in Sources */,
+				228F66532B2712CF001E29E2 /* MotionBlur+Debug+View.swift in Sources */,
+				228F664F2B270732001E29E2 /* ZoomBlur+Debug+View.swift in Sources */,
+				228F66552B271D84001E29E2 /* RadialSlider.swift in Sources */,
+				228F66512B270A47001E29E2 /* HorizontalSlider.swift in Sources */,
+				228F66572B288DB1001E29E2 /* EffectToggle.swift in Sources */,
+				F73E88162A3B8B0F00617F46 /* Zoom+MotionBlurApp.swift in Sources */,
+				228B42152B260C2B00FDC2B7 /* MotionBlurView.swift in Sources */,
+				228F664D2B26491E001E29E2 /* ZoomBlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F73E881E2A3B8B0F00617F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F73E881F2A3B8B0F00617F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73E88212A3B8B0F00617F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zoom+MotionBlur/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexwidua.ZoomMotionBlur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F73E88222A3B8B0F00617F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zoom+MotionBlur/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexwidua.ZoomMotionBlur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73E880D2A3B8B0F00617F46 /* Build configuration list for PBXProject "Zoom+MotionBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73E881E2A3B8B0F00617F46 /* Debug */,
+				F73E881F2A3B8B0F00617F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73E88202A3B8B0F00617F46 /* Build configuration list for PBXNativeTarget "Zoom+MotionBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73E88212A3B8B0F00617F46 /* Debug */,
+				F73E88222A3B8B0F00617F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F73E88232A3B8B2B00617F46 /* XCRemoteSwiftPackageReference "Wave" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jtrivedi/Wave";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F73E88242A3B8B2B00617F46 /* Wave */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F73E88232A3B8B2B00617F46 /* XCRemoteSwiftPackageReference "Wave" */;
+			productName = Wave;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F73E880A2A3B8B0F00617F46 /* Project object */;
+}
